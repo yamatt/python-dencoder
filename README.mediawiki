@@ -1,0 +1,16 @@
+== Dencoder ==
+Another hastily named Python script from yamatt.
+
+This module is designed to help developers who are looking to implement URL shorteners based upon an incrementing number.
+
+Have a look at the unittest for more examples, but source code example is below:
+
+{{{
+from dencoder import Dencoder
+
+d = Dencoder()
+print d.encode(234)
+print d.decode("xyz")
+}}}
+
+This can then be used to translate a number to a shorter ASCII encoding of the number which can then used as a unique ID.
