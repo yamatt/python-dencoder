@@ -14,3 +14,7 @@ print d.decode("xyz")
 }}}
 
 This can then be used to translate a number to a shorter ASCII encoding of the number which can then used as a unique ID.
+
+== About ==
+Ported the from here:
+https://gist.github.com/1308732/4f6ef4f47e85e1da5d3814c632f195d173dad829
